@@ -1,6 +1,6 @@
 sys = get_param(bdroot, 'Handle');
 l = find_system(sys, 'FindAll', 'on', 'type', 'line');
 for i=1:length(l)
-      %set(l(i),'signalPropagation','off'); % OFF ‚É‚·‚éê‡
-      set(l(i),'signalPropagation','on') % ON ‚É‚·‚éê‡
+      %set(l(i),'signalPropagation','off'); % OFFã«ã™ã‚‹å ´åˆ
+      set(l(i),'signalPropagation','on') % ONã«ã™ã‚‹å ´åˆ
 end 
